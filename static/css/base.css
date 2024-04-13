@@ -1,0 +1,12 @@
+#top-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* Đảm bảo navbar hiển thị trên các phần tử khác */
+}
+
+.content {
+    margin-top: 60px; /* Đảm bảo nội dung không bị che phủ bởi navbar */
+    /* Thêm các thuộc tính khác tùy thuộc vào nhu cầu của bạn */
+}
